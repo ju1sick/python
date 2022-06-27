@@ -1,0 +1,5 @@
+user_id = input('User Id: ')
+password = input('Password: ')
+password_length = len(password)
+hidenn_pass = password_len * '*'
+print(f'Hey {user_id}, you password, {hide_pass}, is {password_len} letters long')
